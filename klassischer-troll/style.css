@@ -1,0 +1,187 @@
+/*
+Theme Name: Klassischer_Troll
+Description: Childtheme von Wordpress Twentyfifteen für den Troll eV
+Author: Thoms
+Template: twentyfifteen
+Version: 1.0
+Tags:
+*/
+
+/* 
+Troll Logo ausschalten auf kleinen Displays wie Smartphone etc.
+*/
+ 
+#troll_logo { 
+		display: none;
+  }
+
+/* 
+Einstellungen für Grosse Screens
+*/
+
+@media screen and (min-width: 59.6875em) {
+
+	.hentry, .page-header, .page-content {
+				box-shadow: 4px 10px 15px rgba(0,0,0,0.8);
+				border-radius: 15px;
+	}
+
+	.site-header {	
+				margin: 0;
+	}
+
+	.widget {	
+				margin: 10% 0;
+	}
+
+	.page-header {	
+				border-left: 0;
+	}
+
+	.hentry+.hentry, .page-header+.hentry, .page-header+.page-content {
+				margin-top: 5%;
+	}
+
+	select,input {	
+				font-family: raleway;
+	}
+
+	body:before {	
+				width: 30%;
+				max-width: 400px;
+	}
+
+	#sidebar {	
+				left: 0;
+				width: 30%;
+				max-width: 400px;
+	}
+
+	#page {	
+				margin-left: 0;
+	}
+
+	@media screen and (min-width: 59em) {
+				#masthead {
+					margin-top: 10%;
+				}
+	}
+
+	@media screen and (max-width: 59em) {
+				#masthead {
+					padding: 3%;
+				}
+	}
+
+	.widget_pages h2 {	
+				display: none;
+	}
+
+	.entry-content {
+			
+				padding-bottom: 2.5em;
+ 	}
+
+	.comments-area {
+				margin-top: 1em;
+				padding-top: 2em;
+	}
+
+	.comment-metadata { 	padding-top: 0.15em;
+             			padding-bottom: 0.15em;
+				margin-bottom: 0.5em;
+  	}
+
+
+  	.comment-content { 	padding-top: 0.7em;
+             			padding-bottom: 1em;
+  	}	
+
+  	.reply {
+ 				margin-top: 0.1em;
+				padding-top: 0.1em;
+  	}
+
+
+  	.site-content {
+				display: block;
+				float: left;
+				margin-left: 30%;
+				width: 100.000%;
+  	}
+
+  	body {			background-size: cover;
+				font-size: 15px;
+				font-size: 1.59rem;
+				line-height: 1.6;
+  	}
+  
+  	.site-title { 		text-align: center;
+				font-size: 22px;
+				font-size: 2.2rem;
+				line-height: 1.3636;
+				padding-top: 1.2em;
+  	}
+
+  	.site-description {
+				margin-bottom: 50px;
+  	}
+
+  	#troll_logo {
+				display: block;
+
+  	}
+  
+  	.site-footer {
+				position:relative;				
+				float: left;
+				/* min-margin-left: 400px;
+				margin-left: 30%; */			
+				margin-top: 8.00%;
+				margin-bottom: 5.00%;
+				text-align: center;
+				vertical-align: middle;
+  	}
+
+	/* .site-info {
+				margin-left: 30%;
+				width: 70%;				
+	} */
+  
+  	.comment-content h2 {
+				font-size: 26px;
+				font-size: 1.8rem;
+  	}  
+  
+  	.comments-title {
+				font-size: 26px;
+				font-size: 2.2rem;
+  	}
+	
+  	.comment-reply-title {
+				font-size: 26px;
+				font-size: 2.2rem;
+  }
+
+  
+ /* .dropdown-toggle:hover {
+  	position: absolute;
+ 	display: block;
+  	width: 720px;
+  	height: 25px;
+  	position: absolute;
+  	margin: 20px 0 0 0;
+	color: #333;
+	content: "\f431";
+	font-size: 24px;
+	line-height: 42px;
+	position: relative;
+	top: 0;
+	left: 1px;
+	width: 42px;
+  } */
+
+}
+
+
+
