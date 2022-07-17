@@ -107,8 +107,12 @@ Einstellungen für Grosse Screens
 				display: block;
 				float: left;
 				margin-left: 30%;
-				width: 100.000%;
+				width: 70.000%;
   	}
+	
+	.site {
+		max-width: 100%	
+	}
 
   	body {			background-size: cover;
 				font-size: 15px;

@@ -29,7 +29,7 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
 				<a href="/"> 
-				<img id="troll_logo" class="alignnone size-full wp-image-108" src="http://troll-ev.de/wp-content/uploads/2015/10/cropped-TROLL-Schriftzug_mit_Schatten.png" height="190" /> </a>
+				<img id="troll_logo" class="alignnone size-full wp-image-108" src="/wp-content/uploads/TROLL-Schriftzug_mit_Schatten-1.png" height="190" /> </a>
 				
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
